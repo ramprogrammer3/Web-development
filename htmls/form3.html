@@ -15,6 +15,7 @@
         <input type="text" name="name" id="name" /><br /><br />
         <label for="email">Email : </label>
         <input type="email" name="email" id="email" />
+
         <p>Choose Gender :</p>
         <input type="radio" name="gender" id="male" />
         <label for="male">Male </label><br />
@@ -22,6 +23,38 @@
         <label for="female">Female </label><br />
         <input type="radio" name="gender" id="others" />
         <label for="others">Others</label>
+
+        <p>Choose your favourite game :</p>
+        <input type="checkbox" name="checkbox1" id="cricket" />
+        <label for="cricket">Cricket </label><br />
+        <input type="checkbox" name="checkbox2" id="football" />
+        <label for="football">football</label><br />
+        <input type="checkbox" name="checkbox3" id="hockey" />
+        <label for="hockey">Hockey </label><br /><br />
+
+        <label for="cars">Choose a car : </label>
+        <select name="cars" id="cars">
+          <option value="valvo">Valvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br><br>
+
+        <label for="ice-cream-choice">Choose a flavor:</label>
+        <input
+          list="ice-cream-flavors"
+          id="ice-cream-choice"
+          name="ice-cream-choice"
+        />
+
+        <datalist id="ice-cream-flavors">
+          <option value="Chocolate"></option>
+          <option value="Coconut"></option>
+          <option value="Mint"></option>
+          <option value="Strawberry"></option>
+          <option value="Vanilla"></option>
+        </datalist>
       </fieldset>
     </form>
   </body>
