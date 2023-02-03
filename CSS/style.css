@@ -1,0 +1,21 @@
+
+
+h2{
+    color: red;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p{
+    color: blue  !important;
+    font-size: 1.5rem;
+}
+
+#black-para{
+    color: green;
+}
+.para{
+    color: orange;
+}
